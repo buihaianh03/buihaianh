@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\buihaianh\\DemoMVC\\DemoMVC.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\buihaianh\\DemoMvc\\DemoMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\buihaianh\\DemoMVC\\DemoMVC.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\buihaianh\\DemoMvc\\DemoMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\buihaianh\\DemoMVC\\DemoMVC.csproj",
-        "projectName": "DemoMVC",
-        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\buihaianh\\DemoMVC\\DemoMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\buihaianh\\DemoMvc\\DemoMvc.csproj",
+        "projectName": "DemoMvc",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\buihaianh\\DemoMvc\\DemoMvc.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\buihaianh\\DemoMVC\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\buihaianh\\DemoMvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,28 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqdotnet add package Microsoft.EntityFrameworkCore.SQLiter": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
